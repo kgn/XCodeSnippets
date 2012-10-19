@@ -33,7 +33,7 @@ dispatch_once(&once, ^{
 }
 ```
 
-## Pragma Mark
+## Pragma section
 
 ``` obj-c
 #pragma mark - <#section#>
