@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"%s:%@", class_getName([self class]), NSStringFromSelector(_cmd));</string>
+	<string>NSLog(@"%@:%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F21CBC68-51C1-4EDC-8199-CD67E96F308A</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -33,6 +33,18 @@ dispatch_once(&once, ^{
 }
 ```
 
+## Log Class:MethodName
+
+``` obj-c
+NSLog(@"%@:%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+```
+
+## Log Method Name
+
+``` obj-c
+NSLog(@"%@", NSStringFromSelector(_cmd));
+```
+
 ## Pragma section
 
 ``` obj-c
